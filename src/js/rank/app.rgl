@@ -1,0 +1,14 @@
+<header></header>
+<div class="contentBody">
+    <div class="container">
+        {#if loadStatus == 0}
+        {#if rankData!=null}
+        <rankList rankData="{rankData}"></rankList>
+        {/if}
+        {#elseif loadStatus == 1}
+        <p class="statusTips">加载数据中</p>
+        {#elseif loadStatus == 2}
+        <p class="statusTips">服务器异常,请稍候再试</p>
+        {/if}
+    </div>
+</div>

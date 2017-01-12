@@ -1,0 +1,51 @@
+.container {
+  width: 1003px;
+  margin: 0 auto;
+  position: relative;
+  clear: both;
+  &.w756 {
+    width: 756px;
+  }
+  .statusTips {
+    color: #7d7258;
+    font-size: 35px;
+    text-align: center;
+  }
+}
+
+.header {
+  height: 1032px;
+  background: url("../img/common/header-bg.jpg") top center;
+  //设置按钮位置
+  .btn-box {
+    position: absolute;
+    top: 565px;
+    left: 275px;
+    overflow: hidden;
+  }
+  //设置按钮大小
+  .rule-btn, .rank-btn {
+    cursor: pointer;
+    float: left;
+    width: 200px;
+    height: 70px;
+    margin-right: 87px;
+  }
+
+  //按钮样式图片[规则按钮]
+  .rule-btn {
+
+    background-image: url("../slice/common/rule-btn.png");
+    &.active {
+      background-image: url("../slice/common/rule-btn-active.png");
+    }
+  }
+  //按钮样式图片[排行按钮]
+  .rank-btn {
+    background-image: url("../slice/common/rank-btn.png");
+    &.active {
+      background-image: url("../slice/common/rank-btn-active.png");
+    }
+
+  }
+}

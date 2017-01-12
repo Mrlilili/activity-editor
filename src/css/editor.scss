@@ -1,0 +1,61 @@
+@charset "utf-8";
+@import "lib/mixin";
+@import "lib/normalize";
+@import "lib/reset";
+@import "lib/hack";
+@import "common/base";
+@import "common/extend";
+@import "common/common";
+@import "editor/editEffect";
+@import "lib/amazeui";
+
+html, body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+#app {
+  height: 100%;
+}
+
+#editorBox {
+  display: flex;
+  height: 100%;
+}
+
+#toolContainer {
+  transition: all .25s;
+  width: 0;
+  overflow-x: hidden;
+  &.open {
+    width: 300px;
+  }
+  .am-btn-group-stacked{
+    width:100%;
+  }
+}
+
+#pageContainer {
+  flex: 1;
+  height: 100%;
+  overflow: auto;
+  #openToolBox {
+    position: absolute;
+    text-align: center;
+    width: 35px;
+    background: #0e90d2;
+    color: #fff;
+    padding: 5px 0;
+    cursor: pointer;
+    border-top-right-radius: 15%;
+    border-bottom-right-radius: 15%;
+    top: 50%;
+    transform: translateY(-50%);
+    div {
+      writing-mode: vertical-rl;
+      margin: auto;
+    }
+  }
+
+}

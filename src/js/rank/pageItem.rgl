@@ -1,0 +1,7 @@
+<div class="pageBox">
+    {#if pageNum>1}
+    {#list 1..pageNum as item}
+    <a class="item {curIndex == item_index?'active':''}" on-click="{this.setCurIndex(item_index)}">{item_index+1}</a>
+    {/list}
+    {/if}
+</div>

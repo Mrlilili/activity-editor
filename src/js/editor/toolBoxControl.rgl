@@ -1,0 +1,4 @@
+<div id="openToolBox" on-click="{this.changeToolBoxStatus()}">
+    <span class="am-icon-arrow-circle-{toolBoxStatus==1?'left':'right'} am-icon-sm"></span>
+    <div>{toolBoxStatus==1?'关闭':'打开'}</div>
+</div>

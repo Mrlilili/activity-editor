@@ -1,0 +1,13 @@
+<div class="bestItem">
+    <div class="bestItem_icon"></div>
+    <div class="bestItem_imgBox">
+        <img src="{bestData.logo}"
+             alt="">
+        <div class="sign"></div>
+    </div>
+    <div class="bestItem_infoBox">
+        <p>昵称：{bestData.item_name}</p>
+        <p>积分：{bestData.item_value}</p>
+        <!--<p>奖励:{item.data[0].logo}</p>-->
+    </div>
+</div>

@@ -1,0 +1,18 @@
+{
+  "name": "box-201605-feat",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.yypm.com:friend/box-201605-feat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "regularjs": "^0.4.1",
+    "rgl-loader": "^0.4.0"
+  }
+}

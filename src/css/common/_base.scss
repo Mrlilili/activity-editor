@@ -1,0 +1,29 @@
+html {
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+html, body {
+    font-family: "\5FAE\8F6F\96C5\9ED1", Arial, sans-serif;
+    //font-family: "\5B8B\4F53", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #131e1b;
+    color: #9b9b9b;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+
+    &:focus {
+        outline: 0;
+    }
+}
+
+body #nav_top_bar{
+    position: fixed;
+    width: 100%;
+    z-index: 11000;
+    color: #100f13;
+}

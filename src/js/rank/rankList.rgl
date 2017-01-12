@@ -1,0 +1,8 @@
+{#list rankData as item}
+<div class="rankList">
+    <div class="title">{item.display_name}</div>
+    <bestItem bestData="{item.data[0]}"></bestItem>
+    <tableItem tableData="{item}"></tableItem>
+
+</div>
+{/list}

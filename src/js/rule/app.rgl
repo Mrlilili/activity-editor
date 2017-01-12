@@ -1,0 +1,295 @@
+<header></header>
+<div class="contentBody">
+    <div class="title item1" id="rule">
+
+    </div>
+    <div class="imgBox">
+        <img src="./assets/data/prize.png" alt="">
+    </div>
+
+    <div class="container w756">
+
+        <div class="textBox">
+
+            <p>
+                参与条件：活动期间公会加载游戏宝贝模板，参与问道官方活动，带领公会成员进入2017新服，完成升级任务获得对应任务积分，任务积分前10公会即可荣登YY十大问道公会榜。
+                任务说明：<br/>
+                本次任务于2017年1月6日12:00开启。<br/>
+                【步骤1】：点击下载问道游戏客户端（<a href="http://vega30.test.gyyx.cn/asktao/asktao_mini_setup.exe">点击下载</a>）<br>
+                【步骤2】：在 <a href="http://actionv2.gyyx.cn/wdyy2017/index">激活页面</a> 登陆框输入自己的问道帐号信息，选择所在的游戏服务器<br/>
+                【步骤3】：输入新手卡代码并在页面进行激活<br/>
+                【步骤4】：上线后收到系统信息<br/>
+                【步骤5】：角色等级提升到10级后在游戏中天墉城NPC南极仙翁处（45 ，119）领取问道“2017尊享礼包”。<br/>
+                【步骤6】：玩家角色等级提升至20级即可开启并完成YY基础活动任务，并获取基础YY活动积分，提升至40级玩家获得四倍YY活动积分，提升至50级玩家将获得六倍YY活动积分；<br/>
+                注：本卡只能用于激活2017.1.6开启的双线新服“2017”本卡每个帐号仅能领取1次，且激活相应服务器30天之内的帐号可以领取，超过注册30天之外的玩家将无法激活此卡 同一服务器内，一个帐号只能领取一张卡。
+                <br>严禁参赛频道在游戏里拉用户，一旦官方核实，清空该频道排行积分，奖励顺延。
+
+
+            </p>
+
+            <div class="tableBox w100p lh35">
+                <table>
+                    <tr>
+                        <th>问道任务</th>
+                        <th>任务积分</th>
+                    </tr>
+
+
+                    <tr>
+                        <td>任务一：游戏角色升级至20级</td>
+                        <td>5</td>
+
+                    </tr>
+                    <tr>
+                        <td>任务二：游戏角色升级至40级</td>
+                        <td>20</td>
+
+                    </tr>
+                    <tr>
+                        <td>任务三：游戏角色升级至50级</td>
+                        <td>30</td>
+
+                    </tr>
+
+
+                </table>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="title item2" id="reward1">
+
+    </div>
+    <div class="container w756">
+
+        <div class="textBox">
+            <div class="textBox">
+
+
+                <p>
+                    （一）玩问道，抽大奖 <br>
+                    玩家在游戏模板领取任务码，成功下载问道游戏客户端，进入游戏创建问道角色，激活任务码，进行游戏内升级，即可在活动页面领取对应的升级礼包，礼包内含宝贝通关必备道具：问道剑，及模板虚拟道具、抽奖机会.（奖励将自动发放至YY用户包裹）
+                </p>
+                <div class="tableBox w100p lh35">
+                    <table>
+                        <tr>
+                            <th>获取途径</th>
+                            <th>页面领取</th>
+                        </tr>
+                        <tr>
+                            <td>玩家升级至20级</td>
+                            <td>问道剑*10，抽奖机会2次，红心*1999，蓝心*100</td>
+                        </tr>
+                        <tr>
+                            <td>玩家升级至40级</td>
+                            <td>问道剑*30，抽奖机会*3，红心*5000，蓝心*200</td>
+                        </tr>
+                        <tr>
+                            <td>玩家升级至50级</td>
+                            <td>问道剑*50，抽奖机会*5，红心*9999，蓝心*300</td>
+                        </tr>
+
+
+                    </table>
+                </div>
+
+                <p>
+                    抽奖内容含：Y币、坐骑、付费道具、数码奖品等 <br>
+                    （二）用户新年福利
+                </p>
+
+                <div class="tableBox w100p lh35">
+                    <table>
+                        <tr>
+                            <th>赠送数量</th>
+                            <th>全频道横幅</th>
+                            <th>奖励红心</th>
+                            <th>积分加成</th>
+                        </tr>
+                        <tr>
+                            <td>1次赠送小萌鸡≥520</td>
+                            <td>无</td>
+                            <td>520</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>1次赠送小萌鸡≥1314</td>
+                            <td>无</td>
+                            <td>1314</td>
+                            <td>30</td>
+                        </tr>
+                        <tr>
+                            <td>1次赠送小萌鸡≥1999</td>
+                            <td>有</td>
+                            <td>1999</td>
+                            <td>50</td>
+                        </tr>
+                        <tr>
+                            <td>1次赠送小萌鸡≥9999</td>
+                            <td>有</td>
+                            <td>9999</td>
+                            <td>250</td>
+                        </tr>
+                        <tr>
+                            <td>1次赠送小萌鸡≥19999</td>
+                            <td>有</td>
+                            <td>19999</td>
+                            <td>500</td>
+                        </tr>
+                        <tr>
+                            <td>1次赠送小萌鸡≥50000</td>
+                            <td>有</td>
+                            <td>50000</td>
+                            <td>1300</td>
+                        </tr>
+                        <tr>
+                            <td>1次赠送小萌鸡≥99999</td>
+                            <td>有</td>
+                            <td>99999</td>
+                            <td>3000</td>
+                        </tr>
+
+
+                    </table>
+                </div>
+
+
+                <p>
+                    游戏宝贝引导玩家进入问道创建角色并升级获取更多的“问道任务”道具送给自己，结合付费道具，解锁任务。宝贝完成一轮闯关道具收集后可开启问道宝箱，当前掉落福利红包，玩家点击频道页面降落的宝箱，有几率爆出各种好礼。</p>
+                <div class="tableBox w100p lh35">
+                    <table>
+                        <tr>
+                            <th>道具</th>
+                            <th>收集道具数量</th>
+                        </tr>
+
+                        <tr>
+                            <td>小萌鸡</td>
+                            <td>666</td>
+                        </tr>
+                        <tr>
+                            <td>问道任务道具</td>
+                            <td>300</td>
+                        </tr>
+                    </table>
+                </div>
+
+
+                <p>
+                    <span style="color: red">宝贝开启1次宝箱=100积分</span> <br>
+                    宝贝、公会分榜规则： <br>
+                    此次活动分为“宝贝A组”榜和“宝贝B组”榜 <br>
+                    公会满足以下条件，公会内宝贝计入“宝贝A组”榜单争夺，公会计入“公会A组”争夺： <br>
+                    1、公会内有视频权限的宝贝数量≥15人; <br>
+                    2、公会视频每日运营时长≥4小时; <br>
+                    其余公会的宝贝参与“宝贝B组”榜单竞争排行；其余公会计入“公会B组”争夺。 <br>
+                    所有宝贝共同参与进阶榜竞争排行；
+                <div class="tableBox w100p lh35">
+
+
+
+
+
+
+                <table>
+                        <tr>
+                            <th>等级</th>
+                            <th>勋章名称</th>
+                        </tr>
+
+                        <tr>
+                            <td>1级勋章（奖励活动总积分700以上宝贝）</td>
+                            <td>发财元宝</td>
+                        </tr>
+                        <tr>
+                            <td>2级勋章（奖励总积分前61-120名宝贝）</td>
+                            <td>新年萌鸡</td>
+                        </tr><tr>
+                            <td>3级勋章（奖励前21-60名宝贝）</td>
+                            <td>鸿福熊猫</td>
+                        </tr>
+                    <tr>
+                        <td>4级勋章（奖励前20宝贝）</td>
+                        <td>问道仙女</td>
+                    </tr>
+                    </table>
+                </div>
+
+                </p>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="title item3" id="reward2">
+
+    </div>
+
+    <div class="container w756">
+        <div class="boxContainer">
+            {#list tableData as item}
+            <div class="tableBox w100p lh35">
+                <div class="tableBox_title">
+                    {item.title}
+                </div>
+                <table>
+                    <tr>
+                        <th>
+                            排名
+                        </th>
+                        <th>
+                            奖励
+                        </th>
+                    </tr>
+                    {#list item.data as tableItem}
+                    <tr>
+                        <td>{tableItem_index+1}</td>
+                        <td>{tableItem}</td>
+                    </tr>
+                    {/list}
+                </table>
+            </div>
+            {/list}
+        </div>
+
+
+    </div>
+    <div class="container w756">
+        <div class="textBox">
+            <p>
+                【注意事项】 <br>
+                1、由于不可抗力因素、网络、第三方软件作弊等非YY公司意愿导致活动出现异常情况，YY官方可根据活动需求进行规则调整，并处罚违规操作刷分行为获得奖励的宝贝/公会，扣除作弊分值，情节严重的取缔参赛资格； <br>
+                2、排行积分相同者按时间先后顺序排序。 <br>
+                3、YY游戏公会运营团队保留在法律规定的范围内对上诉规则进行解释的权利。 <br>
+                4、活动奖品在活动结束后7个工作日内联系发放；如官方联系用户领奖指定领奖时期内并延迟7个工作日都未来领取奖品则默认用户放弃该奖品处理； <br>
+                注：活动咨询YY群80088，咨询官方频道：80。 <br>
+
+            </p>
+        </div>
+    </div>
+
+
+</div>
+
+
+<div class="side">
+    <ul class="itemBox">
+        <li class="item1"><a href="#rule"></a></li>
+        <li class="item2"><a href="#reward1"></a></li>
+        <li class="item3"><a href="#reward2"></a></li>
+    </ul>
+    <div class="top">
+        <a href="#app"></a>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
