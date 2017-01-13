@@ -1,4 +1,4 @@
-<div id="toolContainer" class={toolBoxStatus==1?'open':''}>
+<div id="headConf">
     <form class="am-form">
         <fieldset>
             <legend>活动配置</legend>
@@ -19,14 +19,4 @@
             </p>
         </fieldset>
     </form>
-
-
-    <div class="am-btn-group-stacked">
-        <button type="button" class="am-btn am-btn-primary"
-                disabled={headerStatus==1?'disabled':''}
-        on-click="{this.addHeader()}">添加头图
-        </button>
-        <!--<button type="button" class="am-btn am-btn-default">Button</button>-->
-        <!--<button type="button" class="am-btn am-btn-default">Button</button>-->
-    </div>
 </div>

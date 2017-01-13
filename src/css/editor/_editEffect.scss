@@ -4,3 +4,23 @@
 //  }
 //}
 //
+#editorLayer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, .4);
+  cursor: pointer;
+  border: 5px dashed #0e90d2;
+  .tips {
+    position: absolute;
+    color: #fff;
+    font-size: 50px;
+    @extend %absoluteCenter;
+  }
+}
+
+.outer-node {
+  position: relative;
+}

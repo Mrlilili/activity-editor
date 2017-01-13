@@ -6,7 +6,9 @@
 @import "common/base";
 @import "common/extend";
 @import "common/common";
+
 @import "editor/editEffect";
+
 @import "lib/amazeui";
 
 html, body {
@@ -17,6 +19,7 @@ html, body {
 
 #app {
   height: 100%;
+
 }
 
 #editorBox {
@@ -52,6 +55,7 @@ html, body {
     border-bottom-right-radius: 15%;
     top: 50%;
     transform: translateY(-50%);
+    z-index:3;
     div {
       writing-mode: vertical-rl;
       margin: auto;

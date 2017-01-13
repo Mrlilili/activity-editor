@@ -4,19 +4,24 @@
  */
 var Regular = require('regular');
 var $ = require('jquery');
+var editorToolsControl = require('../editorTools/editorToolsControl')
 //var curPageName = $('body').data('page');
 module.exports = Regular.extend({
-    template: require('./header.rgl'),
-    name: 'header',
+    template: require('./app.rgl'),
+    name: 'editorLayer',
     //data: {
-    //    curPageName: curPageName
+
     //},
     init: function () {
-        this.$inject(document.getElementById('pageBox'));
+        this.$inject(this.data.injectDom);
+    },
+    destroyThis: function () {
+        this.destroy();
+
+    },
+    openEditTool: function () {
+        editorToolsControl.openTool()
+
     }
-    //jumpHref: function (type) {
-    //    if (type != curPageName) {
-    //        location.href = './' + type + '.html';
-    //    }
-    //}
+
 })

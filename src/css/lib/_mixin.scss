@@ -29,6 +29,21 @@
     }
 }
 
+
+
+
+%positionVerticalCenter{
+
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+%absoluteCenter{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
 /*
  * @name:  inline-block
  * @param: $alignment {string}  对齐类型

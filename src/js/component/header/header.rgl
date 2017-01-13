@@ -1,9 +1,10 @@
-<div class="header">
+<div class="header outer-node"
+     style="background-image: url('{bgImgUrl}');height:{domHeight}px" ref="outerNode">
     <div class="container">
         <!--<div class="btn-box">-->
             <!--<div class="rule-btn {curPageName=='rule'?'active':''}" on-click="{this.jumpHref('index')}"></div>-->
             <!--<div class="rank-btn {curPageName=='rank'?'active':''}" on-click="{this.jumpHref('rank')}"></div>-->
         <!--</div>-->
     </div>
-    <div id="editorLayer"></div>
+
 </div>
