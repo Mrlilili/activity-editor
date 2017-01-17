@@ -3,25 +3,20 @@
  * header
  */
 var Regular = require('regular');
-var $ = require('jquery');
-var editorToolsControl = require('../editorTools/editorToolsControl')
-//var curPageName = $('body').data('page');
+var appTpl = require('./app.rgl');
+var editorToolsControl = require('../editorTools/editorToolsControl');
+
 module.exports = Regular.extend({
-    template: require('./app.rgl'),
-    name: 'editorLayer',
-    //data: {
+  template: appTpl,
+  name: 'editorLayer',
+  init: function () {
+    this.$inject(this.data.injectDom);
+  },
+  destroyThis: function () {
+    this.destroy();
+  },
+  openEditTool: function () {
+    editorToolsControl.openTool();
+  }
 
-    //},
-    init: function () {
-        this.$inject(this.data.injectDom);
-    },
-    destroyThis: function () {
-        this.destroy();
-
-    },
-    openEditTool: function () {
-        editorToolsControl.openTool()
-
-    }
-
-})
+});

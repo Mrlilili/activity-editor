@@ -1,21 +1,19 @@
 var Regular = require('regular');
-//var Modal = require('./modal');
-
+var ModalAlert = require('./modal.alert.rgl');
 
 module.exports = Regular.extend({
 
-    template: require('./modal.alert.rgl'),
+  template: ModalAlert,
 
-    config: function (data) {
+  config: function () {
 
-    },
+  },
 
-    data: {},
+  data: {},
 
-    init: function () {
-        this.$inject(document.getElementById('pageBox'));
-
-    },
+  init: function () {
+    this.$inject(document.getElementById('pageBox'));
+  }
 
 
 });

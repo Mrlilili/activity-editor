@@ -4,18 +4,16 @@
  */
 
 var Regular = require('regular');
-var $ = require('jquery');
+var toolBoxControlTpl = require('./toolBoxControl.rgl');
 module.exports = Regular.extend({
-    template: require('./toolBoxControl.rgl'),
-    name:'toolBoxControl',
-    init:function(){},
-    changeToolBoxStatus: function () {
-        var self = this;
-        var _data = self.data;
-        _data.toolBoxStatus = _data.toolBoxStatus == 1 ? 2 : 1;
-        self.$update();
-    }
-})
-
-
+  template: toolBoxControlTpl,
+  name: 'toolBoxControl',
+  init: function () {},
+  changeToolBoxStatus: function () {
+    var self = this;
+    var data = self.data;
+    data.toolBoxStatus = data.toolBoxStatus === 1 ? 2 : 1;
+    self.$update();
+  }
+});
 

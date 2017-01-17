@@ -1,2 +1,2 @@
-//var App = require('./rule/app');
-//var app = new App().$inject('#app');
+// var App = require('./rule/app');
+// var app = new App().$inject('#app');

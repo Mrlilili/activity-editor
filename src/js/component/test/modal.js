@@ -1,26 +1,21 @@
 var Regular = require('regular');
-var $ = require('jquery');
+var modalTpl = require('./modal.rgl');
+// var dom = Regular.dom;
 
-var dom = Regular.dom;
-
-//var _ = require('common/helper');
+// var _ = require('common/helper');
 
 module.exports = Regular.extend({
 
   name: 'modal',
 
-  template: require('./modal.rgl'),
+  template: modalTpl,
 
-  config: function (data) {
+  config: function () {
 
   },
 
   init: function () {
-
-
     this.$inject(document.getElementById('pageBox'));
-
-
   }
 
 });

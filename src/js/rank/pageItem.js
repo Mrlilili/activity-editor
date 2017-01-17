@@ -3,17 +3,16 @@
  * pageItem
  */
 var Regular = require('regular');
-
+var pageItemTpl = require('./pageItem.rgl');
 
 module.exports = Regular.extend({
-    template: require('./pageItem.rgl'),
-    name: 'pageItem',
-    data: {},
-    init: function () {
-        var self = this;
-    },
-    setCurIndex: function (i) {
-        var self = this;
-        self.data.curIndex = i;
-    }
-})
+  template: pageItemTpl,
+  name: 'pageItem',
+  data: {},
+  init: function () {
+  },
+  setCurIndex: function (i) {
+    var self = this;
+    self.data.curIndex = i;
+  }
+});

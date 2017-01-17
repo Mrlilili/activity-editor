@@ -4,35 +4,29 @@
  */
 var Regular = require('regular');
 var $ = require('jquery');
-var editorLayer = require('../editorLayer/app');
-//var curPageName = $('body').data('page');
+var EditorLayer = require('../editorLayer/app');
+var headerTpl = require('./header.rgl');
+// var curPageName = $('body').data('page');
 module.exports = Regular.extend({
-    template: require('./header.rgl'),
-    name: 'header',
-    data: {
-        domHeight: 1032,
-        bgImgUrl: './assets/img/common/header-bg.jpg'
-    },
-    init: function () {
-        this.$inject(document.getElementById('pageBox'));
-        var editorLayerCom = null;
-        $(this.$refs.outerNode).hover(function () {
-            var self = this;
-            editorLayerCom = new editorLayer({
-                data: {
-                    injectDom: self
+  template: headerTpl,
+  name: 'header',
+  data: {
+    domHeight: 1032,
+    bgImgUrl: './assets/img/common/header-bg.jpg'
+  },
+  init: function () {
+    var EditorLayerCom = null;
+    this.$inject(document.getElementById('pageBox'));
+    $(this.$refs.outerNode).hover(function () {
+      var self = this;
+      EditorLayerCom = new EditorLayer({
+        data: {
+          injectDom: self
 
-                }
-            });
-        }, function () {
-            editorLayerCom.destroyThis();
-        });
-
-
-    }
-    //jumpHref: function (type) {
-    //    if (type != curPageName) {
-    //        location.href = './' + type + '.html';
-    //    }
-    //}
-})
+        }
+      });
+    }, function () {
+      EditorLayerCom.destroyThis();
+    });
+  }
+});

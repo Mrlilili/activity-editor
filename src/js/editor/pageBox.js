@@ -3,13 +3,13 @@
  * pageBox
  */
 var Regular = require('regular');
-
+var pageBoxTpl = require('./pageBox.rgl');
 
 module.exports = Regular.extend({
-        template: require('./pageBox.rgl'),
-        name: 'pageBox',
-        init: function () {
+  template: pageBoxTpl,
+  name: 'pageBox',
+  init: function () {
 
-        }
-    }
-)
+  }
+}
+);
