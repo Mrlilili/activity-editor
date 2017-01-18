@@ -14,6 +14,6 @@ module.exports = {
     'no-debugger': global.production ? 2 : 0,
     'no-console': global.production ? 1 : 0,
     'func-names': ['error', 'never'],
-    // "no-new": 0
+    "no-new": 0
   }
 };

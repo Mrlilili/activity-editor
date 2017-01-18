@@ -7,7 +7,6 @@ var HeadConf = require('./headConf');
 
 module.exports = {
   openTool: function () {
-    var headConf = new HeadConf();
-    // headConf();
+    new HeadConf();
   }
 };

@@ -18,8 +18,7 @@ module.exports = Regular.extend({
     }, 0.5);
   },
   addHeader: function () {
-    var header = new Header();
-    // header();
+    new Header();
     this.data.headerStatus = 1;
     this.$update();
   }
