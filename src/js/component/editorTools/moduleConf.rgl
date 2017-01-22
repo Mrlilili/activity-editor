@@ -1,19 +1,20 @@
 <div id="headConf">
     <form class="am-form">
         <fieldset>
-            <legend>活动配置</legend>
+            <legend>模块配置</legend>
 
             <div class="am-form-group">
-                <label for="doc-ipt-email-1">活动ID</label>
+                <label for="doc-ipt-email-1">宽，高</label>
+                <input type="text" class="" id="doc-ipt-email-1" placeholder="请输入宽高（逗号分隔）">
+            </div>
+            <div class="am-form-group">
+                <label for="doc-ipt-email-1">定位</label>
                 <input type="text" class="" id="doc-ipt-email-1" placeholder="输入活动ID">
             </div>
-
             <div class="am-form-group">
-                <label for="doc-ipt-pwd-1">活动标题</label>
+                <label for="doc-ipt-pwd-1">背景</label>
                 <input type="text" class="" id="doc-ipt-pwd-1" placeholder="输入活动标题">
             </div>
-
-
             <p>
                 <button type="submit" class="am-btn am-btn-default">提交</button>
             </p>

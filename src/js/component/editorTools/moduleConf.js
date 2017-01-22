@@ -3,10 +3,10 @@
  * headConf
  */
 var Regular = require('regular');
-var headConfTpl = require('./headConf.rgl');
+var headConfTpl = require('./moduleConf.rgl');
 module.exports = Regular.extend({
   template: headConfTpl,
-  name: 'headConf',
+  name: 'moduleConf',
   init: function () {
     this.$inject($('#toolContainer')[0], 'bottom');
   }
