@@ -7,19 +7,16 @@ var Header = require('../component/header/header');
 var toolBoxTpl = require('./toolBox.rgl');
 module.exports = Regular.extend({
   template: toolBoxTpl,
-  data: {
-    headerStatus: 0
-  },
+  data: {},
   name: 'toolBox',
   init: function () {
     var self = this;
     setTimeout(function () {
-      self.addHeader();
+      self.addDomModule();
     }, 0.5);
   },
-  addHeader: function () {
+  addDomModule: function () {
     new Header();
-    this.data.headerStatus = 1;
     this.$update();
   }
 });

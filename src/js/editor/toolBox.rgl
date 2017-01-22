@@ -23,8 +23,7 @@
 
     <div class="am-btn-group-stacked">
         <button type="button" class="am-btn am-btn-primary"
-                disabled={headerStatus==1?'disabled':''}
-        on-click="{this.addHeader()}">添加头图
+        on-click="{this.addDomModule()}">添加模块
         </button>
         <!--<button type="button" class="am-btn am-btn-default">Button</button>-->
         <!--<button type="button" class="am-btn am-btn-default">Button</button>-->
