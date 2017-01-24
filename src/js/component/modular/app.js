@@ -5,26 +5,28 @@
 var Regular = require('regular');
 var $ = require('jquery');
 var EditorLayer = require('../editorLayer/app');
-var headerTpl = require('./header.rgl');
+var headerTpl = require('./app.rgl');
 // var curPageName = $('body').data('page');
 module.exports = Regular.extend({
   template: headerTpl,
-  name: 'header',
+  // name: 'modular',
   data: {
     domHeight: 1032,
     bgImgUrl: './assets/img/common/header-bg.jpg'
   },
   init: function () {
     var EditorLayerCom = null;
+    var moduleDom = this.$refs.outerNode;
     this.$inject(document.getElementById('pageBox'));
-    $(this.$refs.outerNode).hover(function () {
+    $(moduleDom).hover(function () {
       var self = this;
-      EditorLayerCom = new EditorLayer({
-        data: {
-          injectDom: self
-
-        }
-      });
+      if ($(moduleDom).children('#editorLayer').length === 0) {
+        EditorLayerCom = new EditorLayer({
+          data: {
+            injectDom: self
+          }
+        });
+      }
     }, function () {
       EditorLayerCom.destroyThis();
     });

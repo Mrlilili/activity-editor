@@ -3,7 +3,7 @@
  * app
  */
 var Regular = require('regular');
-var Header = require('../component/header/header');
+var Header = require('../component/modular/app');
 var toolBoxTpl = require('./toolBox.rgl');
 module.exports = Regular.extend({
   template: toolBoxTpl,

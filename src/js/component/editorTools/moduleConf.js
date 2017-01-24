@@ -6,6 +6,9 @@ var Regular = require('regular');
 var headConfTpl = require('./moduleConf.rgl');
 module.exports = Regular.extend({
   template: headConfTpl,
+  data: {
+    test: 789789
+  },
   name: 'moduleConf',
   init: function () {
     this.$inject($('#toolContainer')[0], 'bottom');

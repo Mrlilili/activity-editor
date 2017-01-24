@@ -5,7 +5,7 @@
 
             <div class="am-form-group">
                 <label for="doc-ipt-email-1">宽，高</label>
-                <input type="text" class="" id="doc-ipt-email-1" placeholder="请输入宽高（逗号分隔）">
+                <input type="text" class="" r-model={test} id="doc-ipt-email-1" placeholder="请输入宽高（逗号分隔）"><span>{test}</span>
             </div>
             <div class="am-form-group">
                 <label for="doc-ipt-email-1">定位</label>

@@ -1,6 +1,9 @@
 <div id="editorLayer" on-click="{this.openEditTool()}">
     <p class="tips">
-
+        {#if state ==0}
         编辑
+        {#else}
+        编辑中
+        {/if}
     </p>
 </div>
