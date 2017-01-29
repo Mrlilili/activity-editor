@@ -9,8 +9,9 @@ module.exports = Regular.extend({
   data: {
     test: 789789
   },
-  name: 'moduleConf',
+  // name: 'moduleConf',
   init: function () {
+    this.name = 'ioio';
     this.$inject($('#toolContainer')[0], 'bottom');
   }
 });

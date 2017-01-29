@@ -3,7 +3,7 @@
  * app
  */
 var Regular = require('regular');
-var Header = require('../component/modular/app');
+var Modular = require('../component/modular/app');
 var toolBoxTpl = require('./toolBox.rgl');
 module.exports = Regular.extend({
   template: toolBoxTpl,
@@ -16,7 +16,7 @@ module.exports = Regular.extend({
     }, 0.5);
   },
   addDomModule: function () {
-    new Header();
+    new Modular();
     this.$update();
   }
 });
